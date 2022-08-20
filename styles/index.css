@@ -52,19 +52,6 @@ a::before {
     transform:scale(1.08);
 }
 
-section {
-    position: relative;
-    width: 629px;
-    height: 184px;
-    background-color: #3A4042;
-    box-shadow: 10px 10px 0px #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
 .btnSection {
     display: inline-block;
     background-color: #62C370;
