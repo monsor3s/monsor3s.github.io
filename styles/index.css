@@ -14,13 +14,6 @@ header {
     position: relative;
 }
 
-h2 {
-    font-size: 24px;
-    font-family: 'Press Start 2P', cursive;
-    color: #FFF;
-    text-shadow: 5px 2px 0px #000;
-}
-
 nav {
     text-align: right;
 }
