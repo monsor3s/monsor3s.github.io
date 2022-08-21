@@ -1,0 +1,11 @@
+.skills {
+    height: 740px;
+    background-color: #62C370;
+}
+
+.skills .title {
+    color: #FFF;
+    text-shadow: none;
+    text-align: center;
+    padding-top: 50px;
+}
