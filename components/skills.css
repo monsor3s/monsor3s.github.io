@@ -9,3 +9,20 @@
     text-align: center;
     padding-top: 50px;
 }
+
+.skills .subtitle {
+    text-shadow: none;
+}
+
+.skills .process {
+    width: 320px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 5px solid #000000;
+}
+
+.listSkills {
+    width: 960px;
+    height: 480px;
+    
+}
