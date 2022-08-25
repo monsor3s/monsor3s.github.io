@@ -13,11 +13,13 @@
     <link rel="stylesheet" href="./components/header.css">
     <link rel="stylesheet" href="./components/banner.css">
     <link rel="stylesheet" href="./components/button.css">
-    <link rel="stylesheet" href="./components/title.css">
+    <link rel="stylesheet" href="./components/main-title.css">
     <link rel="stylesheet" href="./components/subtitle.css">
     <link rel="stylesheet" href="./components/box.css">
     <link rel="stylesheet" href="./components/action.css">
     <link rel="stylesheet" href="./components/section.css">
+    <link rel="stylesheet" href="./components/skill-tec.css">
+    <link rel="stylesheet" href="./components/progress.css">
 </head>
 <body>
     <header class="header">
@@ -33,7 +35,7 @@
     <section class="banner">
         <div class="wrapper">
             <div class="box">
-                <h1 class="title">Marlon Monsores</h1>
+                <h1 class="main-title">Marlon Monsores</h1>
                 <h2 class="subtitle">FrontEnd Developer</h2>
             </div>
             <div class="navigation">
@@ -43,14 +45,25 @@
         </div>
     </section>  
     <section class="section">
-        <h1 class="title -second">Skills</h1>
-        <ul class="listSkills">
+        <h2 class="main-title -second">Skills</h2>
+        
+        <article class="skill-tec"> <!--description list -->
+            <img class="icon" src="./img/ico_html5.png" alt="logo HTML">
+            <div class="right">
+                <h3 class="title">HTML</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+            </div>
+        </article>
+        
+        <!-- <ul class="listSkills">
             <li class="skillHtml">
-                <img src="./assets/img/ico_html5.png" alt="icon html" class="iconSkills">
+                <img src="./img/ico_html5.png" alt="icon html" class="iconSkills">
                 <h2 class="subtitle">HTML</h2>
                 <div class="process"></div>
             </li>
-        </ul>
+        </ul> -->
     </section>
 </body>
 </html>
