@@ -5,33 +5,6 @@
     border-bottom: 10px solid #3A4042;
 }
 
-
-.section .listSkills {
-    margin: 60px 0 0 235px;
-    padding: 0;
-}
-
-.section .skillHtml {
-    list-style: none;
-    display: flex;
-    width: 430px;
-}
-
-.section .subtitle {
-    text-shadow: none;
-    font-size: 25px;
-    height: 25px;
-    padding-bottom: 16px;
-}
-
-.section .process {
-    width: 320px;
-    height: 40px;
-    background-color: #FFFFFF;
-    border: 5px solid #000000;
-}
-
-.listSkills {
-    width: 960px;
-    height: 480px;
+.section .main-title {
+    margin-bottom: 60px;
 }
