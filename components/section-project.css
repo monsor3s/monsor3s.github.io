@@ -1,0 +1,9 @@
+.section-project {
+    height: 520px;
+    background-color: #000;
+}
+
+.section-project .main-title {
+    padding-top: 50px;
+}
+
