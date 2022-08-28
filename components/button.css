@@ -15,3 +15,8 @@
     background-color: #2e6e38;
     transform:scale(1.08);
 }
+
+.button.-section:hover {
+    transform: none;
+    background-color: #62C370;
+}
