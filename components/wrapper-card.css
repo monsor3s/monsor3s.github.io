@@ -1,8 +1,7 @@
-.wrapper-project {
+.wrapper-card {
     display: flex;
     flex-wrap: wrap;
     max-width: 1152px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-around;
 }
