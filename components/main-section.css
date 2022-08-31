@@ -24,12 +24,3 @@
     
 }
 
-.main-section.-about .about-text {
-    max-width: 1280px;
-    font-size: 30px;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
-    color: #fff;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}

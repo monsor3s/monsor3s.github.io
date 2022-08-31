@@ -1,0 +1,9 @@
+.main-description {
+    max-width: 1280px;
+    font-size: 30px;
+    line-height: 1.3;
+    color: #fff;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
