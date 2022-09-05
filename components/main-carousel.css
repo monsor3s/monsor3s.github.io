@@ -24,7 +24,7 @@
     top: 38.2px;
     display: block;
     border: 3px dashed #000;
-
+    box-sizing: border-box;
     width: 100%;
 }
 
@@ -40,4 +40,15 @@
 
 .main-carousel .button-arrow.-right {
     right: 15px;
+}
+
+.main-carousel .items {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carousel .elements {
+    display: flex;
+    justify-content: space-between;
+    transition: transform 100ms ease-in-out;
 }
