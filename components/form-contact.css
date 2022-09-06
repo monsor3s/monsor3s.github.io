@@ -1,0 +1,8 @@
+.form-contact {
+    max-width: 1360px;
+    height: 675px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
