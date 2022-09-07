@@ -20,3 +20,9 @@
     transform: none;
     background-color: #62C370;
 }
+
+.main-button.-contact {
+    width: 1360px;
+    height: 60px;
+    transform: none;
+}
