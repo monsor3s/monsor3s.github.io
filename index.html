@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="./components/form-contact.css">
     <link rel="stylesheet" href="./components/field-text.css">
     <link rel="stylesheet" href="./components/name-form.css">
-    <link rel="stylesheet" href="./components/input-text.css">
+    <link rel="stylesheet" href="./components/main-label.css">
     <link rel="stylesheet" href="./components/main-footer.css">
     
 </head>
@@ -208,21 +208,23 @@
     <section class="main-section -contact">
         <h2 class="main-title -second">Contatos</h2>
 
-        <div class="form-contact">
-            <div class="field-text">
-                <p class="name-form">Nome</p>
-                <input type="text" class="input-text">
+        <form class="form-contact">
+            <div class="wrap-form">
+                <div class="field-text">
+                    <label class="main-label" for="name">Nome</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="field-text">
+                    <label class="main-label" for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="field-text">
+                    <label class="main-label" for="message">Mensagem</label>
+                    <textarea id="message" ></textarea>
+                </div>
+                <button type="submit" class="main-button -contact">Enviar</button>
             </div>
-            <div class="field-text">
-                <p class="name-form">Email</p>
-                <input type="text" class="input-text">
-            </div>
-            <div class="field-text">
-                <p class="name-form">Mensagem</p>
-                <textarea name="mensagem" class="field-textarea" cols="191" rows="10"></textarea>
-            </div>
-            <button class="main-button -contact">Enviar</button>
-        </div>
+        </form>
     </section>
     <footer class="main-footer">
             <a class="action" href="" target="_blank">

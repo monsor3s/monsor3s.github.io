@@ -2,7 +2,7 @@
     height: 90px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    
 }
 
 .field-text .field-textarea {
