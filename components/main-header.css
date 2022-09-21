@@ -8,3 +8,8 @@
     
 }
 
+@media (max-width: 1100px) {
+    .main-header > .menu {
+    display: none;
+}
+}
