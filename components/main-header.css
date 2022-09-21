@@ -28,6 +28,12 @@
     .main-header .action-header {
         display: flex;
     }
+
+    .main-header .icon-close {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
 }
 
 /* 1100 - até aonde dá pra cima */
