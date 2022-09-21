@@ -8,8 +8,16 @@
     
 }
 
+/* 0 - 1100 */
 @media (max-width: 1100px) {
     .main-header > .menu {
     display: none;
 }
+}
+
+/* 1100 - até aonde dá pra cima */
+@media (min-width: 1100px) {
+    .main-header > .icon-menu {
+        display: none;
+    }
 }
