@@ -11,3 +11,8 @@
 .card-project.-blue {
     background-color: #4C5B84;
 }
+
+.card-project .logo.-intro {
+    width: 120px;
+    height: 80px;
+}
