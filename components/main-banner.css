@@ -1,6 +1,8 @@
 .main-banner {
+    display: flex;
+    justify-content: space-around;
     box-sizing: border-box;
-    background-color: #4c5b84;
+    background-color: #2C3E50;
     height: 800px;
     border-bottom: 10px solid #000;
     padding-top: 115px;
@@ -22,3 +24,9 @@
     justify-content: space-around;
 }
 
+.main-banner .photo-banner {
+    width: 528px;
+    height: 627px;
+    margin-top: -50px;
+    box-shadow: 10px 10px 0px #000;
+}
