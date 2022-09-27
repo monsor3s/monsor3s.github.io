@@ -169,22 +169,24 @@
     <section class="main-section -contact" id="contact">
         <h2 class="main-title -second">Contatos</h2>
 
-        <form class="form-contact" action="https://api.staticforms.xyz/submit" method="post">
+        <form id="form" class="form-contact" action="https://api.staticforms.xyz/submit" method="post">
             <input type="hidden" name="accessKey" value="1cb17734-ce39-4e11-a3c5-adbea0d8ae06">
             <input type="hidden" name="redirectTo" value="https://monsor3s.github.io/thankspage">
 
             <div class="wrap-form">
                 <div class="">
                     <label class="main-label" for="inputName">Nome</label>
-                    <input class="main-input" type="text" id="inputName" name="name">
+                    <input class="main-input required" type="text" id="inputName" name="name" oninput="nameValidate()">
+                    <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
                 </div>
                 <div class="">
                     <label class="main-label" for="inputEmail">Email</label>
-                    <input class="main-input" type="email" id="inputEmail" name="email">
+                    <input class="main-input required" type="email" id="inputEmail" name="email" oninput="emailValidate()">
+                    <span class="span-required">Digite um email válido</span>
                 </div>
                 <div class="">
                     <label class="main-label" for="inputMessage">Mensagem</label>
-                    <textarea class="main-input -textarea" id="inputMessage" name="message" ></textarea>
+                    <textarea class="main-input -textarea" id="inputMessage" name="message" placeholder="Digite aqui sua mensagem..."></textarea>
                 </div>
                 <button type="submit" class="main-button -contact">Enviar</button>
             </div>
@@ -202,6 +204,6 @@
             </a>
     </footer>
 
-    <script src=""></script>
+    <script src="./scripts/index.js"></script>
 </body>
 </html>
