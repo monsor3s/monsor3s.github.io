@@ -158,7 +158,6 @@
             <a href="#" target="_blank">
                 <figure class="card-project -green">
                     <a class="logo">&lt;Monsor3sDev/&gt;</a>
-                    <!-- <img class="logo" src="./img/portfolio.png" alt="logo portifolio"> -->
                 </figure>
             </a>    
         </div>
@@ -172,19 +171,22 @@
     <section class="main-section -contact">
         <h2 class="main-title -second">Contatos</h2>
 
-        <form class="form-contact">
+        <form class="form-contact" action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="1cb17734-ce39-4e11-a3c5-adbea0d8ae06">
+            <input type="hidden" name="redirectTo" value="https://ge.globo.com">
+
             <div class="wrap-form">
                 <div class="">
-                    <label class="main-label" for="name">Nome</label>
-                    <input class="main-input" type="text" id="name">
+                    <label class="main-label" for="inputName">Nome</label>
+                    <input class="main-input" type="text" id="inputName" name="nome">
                 </div>
                 <div class="">
-                    <label class="main-label" for="email">Email</label>
-                    <input class="main-input" type="email" id="email">
+                    <label class="main-label" for="inputEmail">Email</label>
+                    <input class="main-input" type="email" id="inputEmail" name="email">
                 </div>
                 <div class="">
-                    <label class="main-label" for="message">Mensagem</label>
-                    <textarea class="main-input -textarea" id="message" ></textarea>
+                    <label class="main-label" for="inputMessage">Mensagem</label>
+                    <textarea class="main-input -textarea" id="inputMessage" name="message" ></textarea>
                 </div>
                 <button type="submit" class="main-button -contact">Enviar</button>
             </div>
