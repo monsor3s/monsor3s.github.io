@@ -5,6 +5,10 @@
     text-shadow: 4px 4px 0px #000;
 }
 
+.main-subtitle.-logoproject {
+    font-size: 18px;    
+}
+
 .main-subtitle.-thanks {
     margin-bottom: 20px;
 }

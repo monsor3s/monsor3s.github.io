@@ -19,11 +19,7 @@
 
 .card-project.-green {
     background-color: #62c370;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-.card-project.-green a {
-    font-size: 18px;
-    font-family: 'Press Start 2P', cursive;
-    color: #FFF;
-    text-shadow: 4px 4px 0px #000;
-}
