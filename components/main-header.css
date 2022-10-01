@@ -9,7 +9,7 @@
 }
 
 /* 0 - 1100 */
-@media (max-width: 1100px) {
+/* @media (max-width: 1100px) {
     .main-header > .menu {
     display: flex;
     flex-direction: column;
@@ -37,8 +37,8 @@
 }
 
 /* 1100 - até aonde dá pra cima */
-@media (min-width: 1100px) {
+/* @media (min-width: 1100px) {
     .main-header > .icon-menu {
         display: none;
     }
-}
+} */

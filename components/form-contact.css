@@ -15,7 +15,7 @@
 }
 
 .span-required{
-    font-size: 14px;
+    font-size: 1.4rem;
     margin: 3px 0 0 1px;
     color: red;
     display: none;

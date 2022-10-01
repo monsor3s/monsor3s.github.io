@@ -1,7 +1,7 @@
 .main-input { 
     box-sizing: border-box;
     border: 5px solid #000000;
-    font-size: 30px;
+    font-size: 3.0rem;
     height: 50px;
     width: 100%;
     padding-left: 5px;
