@@ -5,13 +5,13 @@
     background-color: #2C3E50;
     height: 800px;
     border-bottom: 10px solid #000;
-    padding-top: 115px;
-    padding-left: 90px;
+    
 }
 
 .main-banner .wrapper {
     display: flex;
     flex-direction: column;
+    padding-top: 60px;
     width: 640px;
 }
 
@@ -27,6 +27,5 @@
 .main-banner .photo-banner {
     width: 528px;
     height: 627px;
-    margin-top: -50px;
     box-shadow: 10px 10px 0px #000;
 }

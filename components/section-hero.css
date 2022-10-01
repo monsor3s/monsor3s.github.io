@@ -1,0 +1,9 @@
+.section-hero {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 790px;
+    padding: 45px 90px;
+}
