@@ -9,9 +9,10 @@
 }
 
 .main-banner .wrapper {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
+    padding-bottom: 80px;
     width: 640px;
 }
 

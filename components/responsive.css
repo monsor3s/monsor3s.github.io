@@ -1,7 +1,50 @@
-@media (max-width: 1290px) {
+@media (max-width: 1200px) {
     .main-banner .main-box {
-        
+        width: 400px;
     }
+
+    .main-box .main-title {
+        font-size: 2.2rem;
+    }
+
+    .main-box .main-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .wrapper .main-button.-section {
+        width: 80px;
+        height: 40px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper a {
+        font-size: 1rem;
+    }
+
+    .section-hero .photo-banner {
+        width: 400px;
+        height: 500px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
+    
+}
+
+@media (max-width: 320px) {
+    
 }
 
 /* 0 - 1100 */

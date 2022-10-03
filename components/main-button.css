@@ -8,6 +8,7 @@
     font-size: 2.0rem;
     color: #FFF;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 .main-button:hover {
