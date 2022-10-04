@@ -1,12 +1,3 @@
-.form-contact {
-    max-width: 1280px;
-    height: 675px;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .form-contact .wrap-form {
     overflow: hidden;

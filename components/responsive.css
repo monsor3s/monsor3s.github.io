@@ -37,13 +37,9 @@
     }
 
     .main-section.-contact .wrap-form {
-        margin-left: 50px;
-        margin-right: 50px;
+        padding: 0 50px 50px 50px;
     }
 
-    .wrap-form .main-button.-contact {
-        
-    }
 
 }
 
