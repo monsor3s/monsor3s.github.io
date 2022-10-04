@@ -1,6 +1,8 @@
 @media (max-width: 1200px) {
     .main-banner .main-box {
         width: 400px;
+        margin-left: 62px;
+        margin-right: 62px;
     }
 
     .main-box .main-title {
@@ -28,6 +30,21 @@
         width: 400px;
         height: 500px;
     }
+
+    .main-section.-about .main-description {
+        padding: 50px;
+        font-size: 3.2rem;
+    }
+
+    .main-section.-contact .wrap-form {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .wrap-form .main-button.-contact {
+        
+    }
+
 }
 
 
