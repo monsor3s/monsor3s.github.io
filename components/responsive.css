@@ -45,7 +45,14 @@
 
 
 @media (max-width: 1024px) {
-    
+    .section-hero {
+        padding: 40px;
+    }
+
+    .section-hero .main-box {
+        margin: 0 0 42px 0;
+
+    }
 }
 
 @media (max-width: 768px) {
