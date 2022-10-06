@@ -40,10 +40,7 @@
     .main-section.-contact .wrap-form {
         padding: 0 50px 50px 50px;
     }
-
-
 }
-
 
 @media (max-width: 1024px) {
     .section-hero {
@@ -161,7 +158,51 @@
 }
 
 @media (max-width: 320px) {
-    
+    .section-hero .main-box {
+        width: 260px;
+    }
+
+    .navigation .main-button.-section {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-hero .photo-banner {
+        width: 260px;
+        height: 380px;
+    }
+
+    .wrapper-skill .progress-bar {
+        width: 185px;
+    }
+
+    .main-section .wrapper-skill {
+        justify-content: flex-start;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .wrapper-skill .skill-tec {
+        padding-bottom: 15px;
+    }
+
+    .wrapper-skill .icon {
+        width: 50px;
+        height: 60px;
+    }
+
+    .skill-tec .title {
+        font-size: 1.7rem;
+    }
+
+    .main-section .main-title.-second {
+        font-size: 3rem;
+    }
+
+    .main-section.-about .main-description {
+        font-size: 1.8rem;
+        text-align: start;
+    }
 }
 
 /* 0 - 1100 */
