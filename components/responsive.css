@@ -13,7 +13,7 @@
         font-size: 1.5rem;
     }
 
-    .wrapper .main-button.-section {
+    .wrapper .main-button.-section  {
         width: 80px;
         height: 40px;
         padding: 0;
@@ -51,12 +51,75 @@
 
     .section-hero .main-box {
         margin: 0 0 42px 0;
-
     }
 }
 
 @media (max-width: 768px) {
-    
+    .section-hero {
+        flex-direction: column;
+    }
+
+    .section-hero .wrapper {
+        padding: 0;
+        align-items: center;
+    }
+
+    .section-hero .photo-banner {
+        width: 360px;
+        height: 450px;
+    }
+
+    .navigation .main-button.-section {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .main-section .wrapper-skill {
+        position: relative;
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: center;
+    }
+
+    .wrapper-skill .skill-tec {
+        margin: 0;
+    }
+
+    .wrapper-skill .skill-tec:nth-child(odd) {
+        margin: 0;
+    }
+
+    .wrapper-skill .icon {
+        width: 65px;
+        height: 60px;
+    }
+
+    .wrapper-skill .right {
+        font-size: 2.0rem;
+    }
+
+
+    .wrapper-card .card-project {
+        width: 200px;
+        height: 240px;
+    }
+
+    .card-project .logo {
+        width: 90%;
+    }
+
+    .card-project .logo.-intro {
+        width: 70%;
+    }
+
+    .card-project .main-subtitle.-logoproject {
+        font-size: 1.3rem;
+    }
+
+    .main-section.-about .main-description {
+        font-size: 2.8rem;
+    }
+
 }
 
 @media (max-width: 480px) {
