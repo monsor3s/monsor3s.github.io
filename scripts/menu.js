@@ -1,9 +1,8 @@
-let show = true;
+const btnMobile = document.getElementById('btn-mobile');
 
-const menuSection = document.querySelector(".main-header")
-const menuToggle = menuSection.querySelector(".menu")
+function toggleMenu() {
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('active');
+}
 
-menuToggle.addEventListener("click", () => {
-    menuSection.classList.toggle("on", show)
-    show = !show
-})
+btnMobile.addEventListener('click', toggleMenu);

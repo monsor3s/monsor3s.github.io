@@ -42,7 +42,28 @@
     }
 }
 
+@media (min-width: 1024px) {
+    .main-header > .icon-menu {
+        display: none;
+    }
+}
+
 @media (max-width: 1024px) {
+    #menu {
+        display: none;
+    }
+
+    .main-header > .icon-menu {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+    
+
+    .main-header {
+        height: 106px;
+    }
+
     .main-subtitle {
         font-size: 1.8rem;
     }
@@ -61,6 +82,60 @@
 
     .section-hero .main-box {
         margin: 0 0 42px 0;
+    }
+
+    
+}
+
+@media (min-width: 980px) {
+    .main-header .icon-close {
+        display: none;
+    }
+}
+
+@media (max-width: 980px) {
+
+    .nav.on {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(103, 94, 94);
+        z-index: 10;
+
+        /* display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        padding: 16px; */
+    } 
+
+    .nav.on .menu-section {
+        
+    }
+
+    .main-header .menu-header {
+        /* display: none; */
+    }
+
+
+    .main-header .action-header {
+        display: flex;
+    }
+
+    .main-header .icon-close {
+        position: absolute;
+        top: 16px;
+        right: 16px;
     }
 }
 
@@ -129,6 +204,7 @@
 
     .main-section.-about .main-description {
         font-size: 2.8rem;
+        text-align: start;
     }
 
 }
@@ -161,6 +237,7 @@
     .main-section.-about .main-description {
         font-size: 2.2rem;
         padding: 30px;
+        
     }
 
     .main-section.-contact .wrap-form {
@@ -213,7 +290,6 @@
 
     .main-section.-about .main-description {
         font-size: 1.8rem;
-        text-align: start;
     }
 }
 
