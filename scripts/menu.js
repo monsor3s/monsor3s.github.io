@@ -1,8 +1,21 @@
-const btnMobile = document.getElementById('btn-mobile');
+let show = true;
 
-function toggleMenu() {
-    const nav = document.getElementById('nav');
-    nav.classList.toggle('active');
-}
+const menuSection = document.querySelector(".menu-section")
+const menuToggle = menuSection.querySelector(".icon-menu")
+const buttonClose = document.querySelector(".icon-close")
+const menuClose = document.querySelector(".wrapper-menu")
 
-btnMobile.addEventListener('click', toggleMenu);
+menuToggle.addEventListener("click", () => {
+    menuSection.classList.toggle("on", show)
+    show = !show;
+})
+
+buttonClose.addEventListener("click", () => {
+    menuSection.classList.toggle("on", show)
+    show = show;
+})
+
+menuClose.addEventListener("click", () => {
+    menuSection.classList.toggle("on", show)
+    show = show;
+})

@@ -1,10 +1,11 @@
-.icon-menu {
-    background-image: url(../img/icon-menu.png);
+.menu-section .icon-menu {
+    background-image: url(../img/icon-menu-white.png);
     background-repeat: no-repeat;
     background-size: auto 100%;
     text-indent: -9999px;
     width: 60px;
     height: 60px;
     image-rendering: pixelated;
-
+    z-index: 11;
+    cursor: pointer;
 }
