@@ -190,6 +190,12 @@
     }
 }
 
+@media (max-width: 890px) {
+    .main-section .wrapper-skill {
+        justify-content: center;
+    }
+}
+
 @media (max-width: 768px) {
     .section-hero {
         flex-direction: column;
