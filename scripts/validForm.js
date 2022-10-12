@@ -4,7 +4,6 @@
         const emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
 
         form.addEventListener('submit', (event) => {
-            event.preventDefault();
             nameValidate();
             emailValidate();
         });
